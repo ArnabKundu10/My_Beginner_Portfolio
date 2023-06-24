@@ -1,0 +1,107 @@
+body {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(14, 14, 138);
+    margin-block-start: 0.95em;
+    text-decoration: underline;
+    background-color: aquamarine;
+    backface-visibility: inherit;
+}
+
+section h4 {
+    font-size: 120%;
+}
+
+table {
+    position: relative;
+    left: 420px;
+    margin-bottom: 20px;
+}
+
+th {
+    color: red;
+    text-transform: uppercase;
+}
+
+table,
+tr,
+th,
+td {
+
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color: azure;
+    text-align: center;
+}
+
+section pre {
+    color: blue;
+}
+
+p#abc {
+    color: brown;
+}
+
+p.bcd {
+    font-size: x-large;
+    color: rgb(255, 0, 13);
+}
+
+li[class~="b"] {
+    color: blue;
+}
+
+li[class~="a"] {
+    color: rgb(112, 6, 24);
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:hover {
+    color: tomato;
+}
+
+textarea {
+    width: 70%;
+}
+
+.gap,
+.gap1,
+.gap2 {
+
+    margin: 20px;
+}
+
+ul {
+    position: relative;
+    left: 420px;
+    margin-bottom: 20px;
+}
+
+.bd1 {
+    float: left;
+    margin: 10px 20px 5px 10px;
+}
+
+
+.football {
+    margin: 0px 10px 5px 20px;
+}
+
+.block {
+    width: 100%;
+    padding-top: 10px;
+    border: 2px solid red;
+}
+
+.single {
+    margin: 10px 10px 5px 20px;
+}
