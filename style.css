@@ -1,7 +1,19 @@
+* {
+    text-align: justify;
+}
+
+
+
 body {
     color: aliceblue;
+    text-align: justify;
     background-color: black;
     text-align: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, minmax(10px, auto));
+    grid-auto-rows: minmax(60px, auto);
+    grid-auto-columns: minmax(100px, auto);
 }
 
 
@@ -19,7 +31,15 @@ section h4 {
 
 table {
     position: relative;
-    left: 420px;
+    left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shift {
+    position: relative;
+    left: 0px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
