@@ -8,12 +8,21 @@ body {
     color: aliceblue;
     text-align: justify;
     background-color: black;
-    text-align: center;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(1, minmax(10px, auto));
-    grid-auto-rows: minmax(60px, auto);
-    grid-auto-columns: minmax(100px, auto);
+
+    position: absolute;
+
+    left: initial;
+    right: initial;
+    bottom: initial;
+
+
+    /* background-image: url(background.jpg);
+    background-repeat: no-repeat; */
+    height: 530px;
+
+    width: initial;
+    padding: 0%;
+    border: 1px solid black;
 }
 
 

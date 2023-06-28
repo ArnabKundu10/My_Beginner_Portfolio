@@ -9,8 +9,11 @@
 
 body {
     position: absolute;
-    top: 50px;
-    left: 100px;
+
+    left: inherit;
+    right: inherit;
+    bottom: inherit;
+
     background-color: rgba(0, 0, 0, 0.627);
     /* background-image: url(background.jpg);
     background-repeat: no-repeat; */
@@ -19,7 +22,7 @@ body {
     width: 600px;
     padding: 0%;
     border: 1px solid black;
-    margin: 100px 600px 100px 200px;
+
 
 }
 

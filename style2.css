@@ -1,15 +1,26 @@
 body {
+
     border: 2px solid black;
-    margin: 10px;
-    padding: 10px;
+    margin: inherit;
+    padding: inherit;
     background-color: rgb(229, 237, 241);
-    height: 1000px;
+
     color: white;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(100%, auto));
-    grid-auto-rows: minmax(60px, auto);
-    grid-auto-columns: minmax(100px, auto);
+    position: absolute;
+
+    left: inherit;
+    right: inherit;
+    bottom: initial;
+
+
+    /* background-image: url(background.jpg);
+    background-repeat: no-repeat; */
+
+
+    width: initial;
+    padding: 0%;
+    border: 1px solid black;
+
 }
 
 .po {
@@ -30,12 +41,12 @@ body {
 }
 
 .head {
-    float: left;
+
     padding-left: 140px;
-    font-size: 60px;
+    font-size: 40px;
     font: bold;
     color: rgba(255, 0, 0, 0.892);
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px 2px;
 
 }
 
